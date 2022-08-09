@@ -1,7 +1,49 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+        "name": "Header",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "logo_image",
+                "label": "Logo"
+            },
+            {
+                "type": "image_picker",
+                "id": "logo_image_mobile",
+                "label": "Logo for mobile (optional)"
+            },
+            {
+                "type": "link_list",
+                "id": "menu_link_list",
+                "label": "MENU",
+                "default": "main-menu"
+            },
+            {
+                "type": "select",
+                "id": "alignment",
+                "label": "Layout",
+                "default": "left-right",
+                "options": [
+                    {
+                        "value": "left-center",
+                        "label": "Logo left - menu center"
+                    },
+                    {
+                        "value": "left-right",
+                        "label": "Logo left - menu right"
+                    },
+                    {
+                        "value": "center-left",
+                        "label": "Logo center - menu left (drawer only)"
+                    }
+                ]
+            },
+            {
+                "type": "checkbox",
+                "id": "sticky_header",
+                "label": "Enable sticky header",
+                "default": true
+            }
+        ]
+    }
 {% endschema %}
-
