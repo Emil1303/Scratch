@@ -1,0 +1,9 @@
+{%- liquid 
+   assign limit = main_menu.links.size
+-%}
+
+<ul class="site_navigation">
+  {%- for link in main_menu.links limit: limit offset: offset -%}
+
+  {%- endfor -%}
+</ul>
