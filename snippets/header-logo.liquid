@@ -1,0 +1,9 @@
+{%- liquid 
+  assign header_logo_size = section.settings.logo_width | append: 'x'
+-%}
+
+<h1>
+  <a href="#">
+    <img src="{{ section.settings.logo | img_url: header_logo_size }}">
+  </a>
+</h1>
