@@ -23,7 +23,12 @@
     align-items: center
   }
 
-
+    {% if section.settings.alignment == 'left-right' %}
+      #header-layout {
+        display:flex;
+        justify-content: space-between;
+      }
+    {% endif %}
   
 {% endstyle %}
 
