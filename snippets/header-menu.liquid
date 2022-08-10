@@ -4,9 +4,9 @@
 
 
   {%- for link in main_menu.links limit: limit offset: offset -%}
-    <span class="site_nav_item">
+    <div class="site_nav_item">
       <a href="{{ link.url }}"> 
         {{ link.title }}
       </a>
-    </span>
+    </div>
   {%- endfor -%}
