@@ -8,6 +8,12 @@
     display: flex;
     justify-content: space-around;
   }
+
+  {% if section.settings.alignment == 'left-right' %}
+    #header-item--menu {
+      float: right;
+    }
+  {% endif %}
   
 {% endstyle %}
 
@@ -15,6 +21,8 @@
   <header>
     <div class="page-width">
       <div id="header-layout">
+
+        
         <div id="header-item--logo">
           {%- render 'header-logo', section: section -%}
         </div>
