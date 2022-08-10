@@ -212,7 +212,7 @@
           "logo_image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
           "logo_width": 100,
           "menu_link_list": "main-menu",
-          "alignment": "left-right",
+          "alignment": "center-left",
           "sticky_header": true
         }
       }
