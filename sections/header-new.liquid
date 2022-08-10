@@ -1,9 +1,17 @@
+{%- liquid
+  assign main_menu = linklists[section.settings.menu_link_list]
+-%}
+
 <div id="header"> 
   <header>
     <div class="page-width">
       <div id="header-layout">
         <div id="header-item--logo">
           {%- render 'header-logo', section: section -%}
+        </div>
+
+        <div id="header-item--menu"> 
+          {%- render 'header-menu', section: section, main_menu: main_menu -%}
         </div>
       </div>
     </div>
