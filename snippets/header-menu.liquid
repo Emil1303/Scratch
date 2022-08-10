@@ -4,6 +4,10 @@
 
 <ul class="site_navigation">
   {%- for link in main_menu.links limit: limit offset: offset -%}
-
+    <li class="site_nav_item">
+      <a href="{{ link.url }}"> 
+        {{ link.title }}
+      </a>
+    </li>
   {%- endfor -%}
 </ul>
