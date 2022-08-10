@@ -9,11 +9,7 @@
     justify-content: space-around;
   }
 
-  {% if section.settings.alignment == 'left-right' %}
-    #header-item--menu {
-      float: right;
-    }
-  {% endif %}
+
   
 {% endstyle %}
 
@@ -22,18 +18,41 @@
     <div class="page-width">
       <div id="header-layout">
 
-        
-        <div id="header-item--logo">
-          {%- render 'header-logo', section: section -%}
-        </div>
+        {% if section.settings.alignment == 'left-right' %}
+            <div id="header-item--logo">
+              {%- render 'header-logo', section: section -%}
+            </div>
+            <div id="header-item--menu" style="float: right"> 
+              {%- render 'header-menu', section: section, main_menu: main_menu -%}
+            </div>
+        {% endif %}
 
-        <div id="header-item--menu"> 
-          {%- render 'header-menu', section: section, main_menu: main_menu -%}
-        </div>
 
-        <div id="header-item--icons">
-          {%- render 'header-icons', section: section -%}
-        </div>
+        {% if section.settings.alignment == 'left-center' %}
+            <div id="header-item--logo">
+              {%- render 'header-logo', section: section -%}
+            </div>
+            <div id="header-item--menu"> 
+              {%- render 'header-menu', section: section, main_menu: main_menu -%}
+            </div>
+            <div id="header-item--icons">
+              {%- render 'header-icons', section: section -%}
+            </div>
+        {% endif %}
+
+        {% if section.settings.alignment == 'center-drawer' %}
+            <div id="header-item--menu"> 
+              {%- render 'header-menu', section: section, main_menu: main_menu -%}
+            </div>
+            <div id="header-item--logo">
+              {%- render 'header-logo', section: section -%}
+            </div>
+            <div id="header-item--icons">
+              {%- render 'header-icons', section: section -%}
+            </div>
+        {% endif %}
+
+
       </div>
     </div>
   </header>
