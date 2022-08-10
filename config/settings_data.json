@@ -209,8 +209,8 @@
       "header-new": {
         "type": "header-new",
         "settings": {
-          "logo_image": "shopify:\/\/shop_images\/logo.png",
-          "logo_width": 300,
+          "logo_image": "shopify:\/\/shop_images\/output-onlinepngtools_1.png",
+          "logo_width": 400,
           "menu_link_list": "main-menu",
           "alignment": "center-left",
           "sticky_header": true
