@@ -209,8 +209,8 @@
       "header-new": {
         "type": "header-new",
         "settings": {
-          "logo_image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
-          "logo_width": 100,
+          "logo_image": "shopify:\/\/shop_images\/logo.png",
+          "logo_width": 300,
           "menu_link_list": "main-menu",
           "alignment": "center-left",
           "sticky_header": true
