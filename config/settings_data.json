@@ -219,7 +219,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "7783125555748896053": {
+        "type": "shopify:\/\/apps\/reemind-me-increase-signups\/blocks\/app-embed\/55624d29-bfe0-417a-ad65-b9b798023b3d",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
