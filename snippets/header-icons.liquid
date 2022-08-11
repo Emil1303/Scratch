@@ -11,9 +11,19 @@
 
 
 <div class="social-icons">
-  {% for i in (1..4) %}
-    {% if section.settings.icon{{ i }}_link %}
-      <img src="{{ section.settings.icon{{ i }}_link }}" width="30px" height="30px">
-    {% endif %}
-  {% endfor %}
+  {% if section.settings.icon1_link %}
+    <img src="{{ section.settings.icon1_link }}" width="30px" height="30px">
+  {% endif %}
+  
+  {% if section.settings.icon2_link %}
+    <img src="{{ section.settings.icon2_link }}" width="30px" height="30px">
+  {% endif %}
+  
+  {% if section.settings.icon3_link %}
+    <img src="{{ section.settings.icon3_link }}" width="30px" height="30px">
+  {% endif %}
+  
+  {% if section.settings.icon4_link %}
+    <img src="{{ section.settings.icon4_link }}" width="30px" height="30px">
+  {% endif %}
 </div>
