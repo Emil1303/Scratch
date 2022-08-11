@@ -198,10 +198,10 @@
           "logo_image": "shopify:\/\/shop_images\/output-onlinepngtools_1.png",
           "logo_width": 400,
           "menu_link_list": "main-menu",
-          "icon1_link": "",
+          "icon1_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/4900\/2440\/files\/Youtube_icon_440c0536-1385-4168-93d2-4bc1ea96537e.png?v=1660207938",
           "icon2_link": "",
-          "icon3_link": "",
-          "icon4_link": "",
+          "icon3_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/4900\/2440\/files\/Instagram_icon_png.webp?v=1660207938",
+          "icon4_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/4900\/2440\/files\/facebook.png?v=1660207938",
           "alignment": "center-left",
           "sticky_header": true
         }
