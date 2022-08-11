@@ -212,7 +212,11 @@
           "logo_image": "shopify:\/\/shop_images\/output-onlinepngtools_1.png",
           "logo_width": 400,
           "menu_link_list": "main-menu",
-          "alignment": "center-left",
+          "icon1_link": "",
+          "icon2_link": "",
+          "icon3_link": "",
+          "icon4_link": "",
+          "alignment": "left-center",
           "sticky_header": true
         }
       }
